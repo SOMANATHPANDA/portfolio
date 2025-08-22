@@ -2,7 +2,7 @@ import { useState } from "react";
 import profile from "./data/Profile";
 import Navbar from "./Components/Navbar";
 import Hero from "./Components/Hero";
-import About from "./components/About";
+import About from "./components/About.jsx";
 import Skills from "./components/Skills";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
