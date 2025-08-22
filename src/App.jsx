@@ -2,6 +2,7 @@ import { useState } from "react";
 import profile from "./data/Profile";
 import Navbar from "./Components/Navbar";
 import Hero from "./Components/Hero";
+import About from "./components/About";
 import Skills from "./components/Skills";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
@@ -9,7 +10,6 @@ import Education from "./components/Education";
 import Contact from "./Components/Contact";
 import Footer from "./components/Footer";
 import React from "react";
-import About from "./components/About";
 
 export default function App() {
   const [dark, setDark] = useState(true);
