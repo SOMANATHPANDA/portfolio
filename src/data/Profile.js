@@ -26,9 +26,11 @@ const profile = {
       period: "Dec 2024 – Present",
       location: "Bhubaneswar, Odisha",
       bullets: [
-        "Implemented Stripe payment gateway integration and configured webhooks.",
-        "Developed push notifications using Firebase Cloud Messaging.",
-        "Collaborated with cross-functional teams to integrate third-party APIs."
+        "Built and optimized responsive web applications using React, Redux Toolkit, and Material UI, improving user experience and reducing load times by 30%.",
+        "Developed and maintained Node.js + Express APIs, ensuring secure authentication (JWT) and scalable file handling with Multer.",
+        "Enhanced system scalability by implementing microservices architecture, improving modularity and reducing system dependencies.",
+        "Collaborated with cross-functional teams in an Agile environment, consistently delivering sprint goals and high-quality features.",
+        "Mentored junior developers in React and Git best practices, fostering knowledge-sharing and smoother onboarding.",
       ],
     },
     {
@@ -37,9 +39,10 @@ const profile = {
       period: "Aug 2023 – Oct 2024",
       location: "Bengaluru, Karnataka",
       bullets: [
-        "Developed responsive web apps with MERN stack, improving engagement by 30%.",
-        "Integrated Redux for efficient state management.",
-        "Designed REST APIs with Node & Express, reducing retrieval times by 25%."
+        "Contributed to a healthcare-focused MERN application, building patient management modules and ensuring HIPAA-compliant data flows.",
+        "Integrated MongoDB for scalable data modeling and efficient storage solutions.",
+        "Automated deployment pipelines using GitHub Actions to AWS EC2, reducing manual release efforts by 40%.",
+        "Improved API performance by implementing caching and query optimization in MongoDB, reducing response times by 20%.",
       ],
     },
   ],

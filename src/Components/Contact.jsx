@@ -73,9 +73,9 @@ export default function Contact({ profile }) {
           {status && <p className="text-sm pt-2">{status}</p>}
 
           <div className="flex flex-wrap gap-4 pt-4">
-            <a href={`mailto:${profile.email}`} className="flex items-center gap-2">
+            {/* <a href={`mailto:${profile.email}`} className="flex items-center gap-2">
               <Mail className="w-4 h-4" /> Mail Me
-            </a>
+            </a> */}
             <a href={profile.social.linkedin} target="_blank" rel="noreferrer" className="flex items-center gap-2">
               <Linkedin className="w-4 h-4" /> LinkedIn
             </a>
