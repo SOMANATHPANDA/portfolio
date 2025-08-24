@@ -2,13 +2,13 @@ import { useState } from "react";
 import profile from "./data/Profile";
 import Navbar from "./Components/Navbar";
 import Hero from "./Components/Hero";
-import About from "./components/About";
-import Skills from "./components/Skills";
-import Experience from "./components/Experience";
-import Projects from "./components/Projects";
-import Education from "./components/Education";
+import About from "./Components/About";
+import Skills from "./Components/Skills";
+import Experience from "./Components/Experience";
+import Projects from "./Components/Projects";
+import Education from "./Components/Education";
 import Contact from "./Components/Contact";
-import Footer from "./components/Footer";
+import Footer from "./Components/Footer";
 import React from "react";
 
 export default function App() {
