@@ -6,31 +6,29 @@ const profile = {
   email: "somanathpanda590@gmail.com",
   phone: "+91 9853999383",
   summary:
-    "Full-Stack Developer with 2 years of experience in building responsive, scalable applications using the MERN stack with Redux, authentication, and server deployment. Skilled in delivering high-performance, user-centric web solutions.",
+    "Full-Stack Developer with ~3 years of experience building scalable, high-performance web applications using the MERN stack. Experienced in developing end-to-end systems including payment integrations, voice-processing platforms, and domain-specific products. Skilled in React, Node.js, Express, and MongoDB, with a strong focus on system reliability, API optimization, and delivering real business impact.",
   social: {
     github: "https://github.com/SOMANATHPANDA",
     linkedin: "https://www.linkedin.com/in/somanath-panda-software-engineer/",
-    // website: "https://vaidyog.com/",
     resumeUrl: "/Somanath_Software_Developer.pdf",
   },
   skills: [
     "Java", "JavaScript", "PHP",
     "React", "Node.js", "Express", "Redux", "Laravel", "SOLID Principles", "Docker",
-    "MongoDB", "MySQL", "Firebase",
+    "MongoDB", "MySQL", "Firebase", "Socket.IO", "Webhook",
     "VS Code", "Postman", "Git", "GitHub", "CI/CD", "Agile", "Microservices"
   ],
   experience: [
     {
       company: "Apie Technologies Pvt Ltd.",
       role: "Software Developer",
-      period: "Dec 2024 – Present",
+      period: "Dec 2024 – Dec 2025",
       location: "Bhubaneswar, Odisha",
       bullets: [
-        "Built and optimized responsive web applications using React, Redux Toolkit, and Material UI, improving user experience and reducing load times by 30%.",
-        "Developed and maintained Node.js + Express APIs, ensuring secure authentication (JWT) and scalable file handling with Multer.",
-        "Enhanced system scalability by implementing microservices architecture, improving modularity and reducing system dependencies.",
-        "Collaborated with cross-functional teams in an Agile environment, consistently delivering sprint goals and high-quality features.",
-        "Mentored junior developers in React and Git best practices, fostering knowledge-sharing and smoother onboarding.",
+        "Implemented end-to-end Stripe payment integration to streamline billing, improving transaction reliability by 35%.",
+        "Built a scalable Firebase Cloud Messaging notification system, increasing real-time user engagement by 25%.",
+        "Integrated multiple third-party APIs, reducing operational friction and improving system efficiency by 40%.",
+        "Collaborated in Agile teams and mentored junior developers to ensure timely delivery of new features."
       ],
     },
     {
@@ -62,35 +60,33 @@ const profile = {
       tags: ["MERN", "Redux Toolkit", "JWT", "AWS", "Healthcare"],
     },
     {
-      name: "Firedesk — Maintenance System",
-      tagline: "Fire extinguisher & pump room maintenance tool.",
+      name: "Senton VPN — Stripe Auto-Pay",
+      tagline: "VPN service platform with automated Stripe billing",
       highlights: [
-        "Developed a full-stack MERN application to streamline fire extinguisher and pump room maintenance workflows.",
-        "Built REST APIs with Node.js and Express to handle asset management, inspection schedules, and compliance tracking.",
-        "Integrated real-time notifications to alert teams about upcoming maintenance tasks and safety checks.",
-        "Implemented dynamic reporting features for compliance audits, enabling PDF/Excel report exports.",
-        "Designed a responsive frontend with React + Redux for role-based dashboards (Admin, Technician, Inspector).",
-        "Deployed the application on AWS with CI/CD pipelines to ensure scalability and continuous updates."
+        "Designed and implemented a Stripe-based auto-pay system to handle complete subscription lifecycles, reducing billing-related support issues by 50%.",
+        "Built robust webhook handling and retry mechanisms, improving failed payment recovery rates by 20%.",
+        "Developed fault-tolerant billing workflows ensuring near-zero revenue leakage and consistent transaction processing.",
+        "Integrated secure payment flows with backend APIs using Node.js and Express for seamless subscription management.",
+        "Optimized system reliability by handling edge cases like failed payments, renewals, and subscription upgrades."
       ],
-      links: { demo: "https://firedesk.in/" },
-      tags: ["MERN", "Redux", "AWS", "CI/CD", "Real-Time Notifications"],
+      tags: ["MERN", "Stripe", "Subscriptions", "Payments", "Webhooks"],
+      links: { demo: "https://www.sentonvpn.com/" },
     },
     {
-      name: "Munsride — Ride-Hailing Platform",
-      tagline: "An Ola-like ride booking and management system.",
+      name: "Speak2Earn — Voice Validation Platform",
+      tagline: "Speech-based validation system with admin analytics dashboard.",
       highlights: [
-        "Developed a ride-hailing app using Laravel + PHP, designed for real-time trip management.",
-        "Integrated Google Maps APIs for route optimization, live driver tracking, and fare estimation.",
-        "Implemented ride booking, cancellation, and trip history with role-based access for drivers and users.",
-        "Built a payment module with secure transactions and digital receipts.",
-        "Created an intuitive admin panel for managing users, trips, and payments with detailed analytics.",
-        "Optimized backend with MySQL for relational data and faster query performance."
+        "Integrated Bhashini APIs for real-time speech processing and multilingual language analysis.",
+        "Developed voice validation logic including duration checks, speaker intent verification, and Kappa score evaluation.",
+        "Built a scalable backend using Node.js to process and validate large volumes of voice submissions efficiently.",
+        "Designed an RBAC-based admin dashboard with advanced filtering, review workflows, and data export capabilities.",
+        "Enabled structured data insights by implementing filters and reporting tools for voice validation metrics."
       ],
-      links: { demo: "https://munsride.com/" },
-      tags: ["Laravel", "PHP", "MySQL", "Google Maps API", "Payment Integration"],
+      tags: ["Node.js", "Speech APIs", "RBAC", "Admin Dashboard", "Data Processing"],
+      links: { demo: "https://speak2earn.com/" }
     },
-    { 
-      name : "Coming Soon",
+    {
+      name: "Coming Soon",
       tagline: "Stay tuned for updates!",
       highlights: [],
       tags: []
@@ -103,16 +99,20 @@ const profile = {
       period: "2018 – 2021",
     },
   ],
-  about: `As a passionate Full-Stack Developer with 2 years of experience, I specialize in building scalable web applications that bridge intuitive user experiences with robust backend systems. 
+  about: `I’m a Full-Stack Developer with ~3 years of experience building scalable, high-impact web applications using the MERN stack.
 
-    My journey has allowed me to work across diverse projects—from healthcare-focused platforms to real-time dashboards—where I combined my skills in React, Node.js, Express, and MongoDB to deliver impactful solutions. 
+I specialize in designing end-to-end systems — from intuitive frontends in React to robust backend architectures with Node.js, Express, and MongoDB. My experience includes working on real-world products involving payment systems, voice-processing platforms, and domain-specific marketplaces.
 
-    I enjoy tackling challenges involving real-time data, cloud deployments, and microservices, ensuring applications are not only functional but also future-ready. 
+At Apie Technologies, I worked on Stripe-based payment integrations and notification systems that improved transaction reliability and boosted user engagement. I enjoy solving complex backend challenges like handling asynchronous workflows, optimizing APIs, and building fault-tolerant systems.
 
-    What drives me is the continuous opportunity to learn and grow, while contributing to teams that value clean, maintainable code and modern development practices. 
+Some of my key work includes:
+• Building a subscription-based billing system (Senton VPN) with Stripe, reducing support issues by 50%.
+• Developing a voice validation platform (Speak2Earn) using speech APIs and advanced filtering workflows.
+• Creating a healthcare job portal (Vaidyog) with secure authentication and scalable deployment on AWS.
 
-    📩 I’m always open to connecting with professionals in tech, exploring new opportunities, and collaborating on projects that make a difference.
-  `,
+I’m passionate about writing clean, maintainable code and continuously improving system performance and user experience. I enjoy working in collaborative environments, learning new technologies, and building products that solve real-world problems.
+
+📩 Open to exciting opportunities where I can contribute, grow, and build impactful solutions.`
 };
 
 export default profile;

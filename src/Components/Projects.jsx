@@ -20,7 +20,12 @@ export default function Projects({ items }) {
       <div className="grid sm:grid-cols-2 gap-4">
         {items.map((p, idx) => (
           <Card key={idx}>
-            <h3 className="text-lg font-semibold">{p.name}</h3>
+            <div className="flex items-center justify-between">
+              <h3 className="text-lg font-semibold">{p.name}</h3>
+              {p.links?.demo && (
+                <Anchor href={p.links.demo}>Live</Anchor>
+              )}
+            </div>
             <p className="text-sm text-gray-600 dark:text-gray-400">
               {p.tagline}
             </p>
@@ -31,10 +36,6 @@ export default function Projects({ items }) {
                 </li>
               ))}
             </ul>
-            <div className="mt-4 flex items-center gap-3 text-sm">
-              {p.links?.demo && <Anchor href={p.links.demo}>Live Demo</Anchor>}
-              {p.links?.repo && <Anchor href={p.links.repo}>Source</Anchor>}
-            </div>
             <div className="mt-3 flex flex-wrap gap-2">
               {p.tags?.map((t, i) => (
                 <Chip key={i}>{t}</Chip>
