@@ -1,7 +1,8 @@
 # Portfolio Starter
 
-Run:
+Run: 
 ```
 npm i
 npm run dev
 ```
+# Edit your info
